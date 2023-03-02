@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
+
 function HeadeR() {
   return (
     <div>
@@ -16,9 +17,11 @@ function HeadeR() {
             <Nav.Link href="#pricing">Carrito de compras</Nav.Link>
           </Nav>
         </Container>
-      </Navbar>   
-      
+      </Navbar>      
+       
     </div>
   );
 }
+
 export default HeadeR; 
+
