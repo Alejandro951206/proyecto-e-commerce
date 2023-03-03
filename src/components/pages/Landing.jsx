@@ -1,11 +1,17 @@
 import React from 'react'
-import HeadeR from '../shared/HeadeR';
+import HeadeR from '../shared/NavBar';
+import CarouselMain from '../shared/CarouselMain';
+
 
 
 const Landing = () => {
   return (
-    <div><HeadeR />  </div>
+
+    <div class="MainPage">
+    <HeadeR />
     
+    <CarouselMain />
+    </div>
   );
 
   

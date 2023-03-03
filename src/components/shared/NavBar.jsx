@@ -19,7 +19,8 @@ function HeadeR() {
         </Container>
       </Navbar>      
        
-    </div>
+      </div>
+    
   );
 }
 
