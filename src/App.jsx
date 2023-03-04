@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
 import Landing from './components/pages/Landing';
+import './App.css';
 
 
 function App(){
@@ -12,10 +12,7 @@ return(
   <Landing />
   
   
-</div>
-
-
-  
+</div> 
   
   ); 
   

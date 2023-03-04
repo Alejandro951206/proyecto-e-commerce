@@ -13,8 +13,8 @@ function HeadeR() {
           <Navbar.Brand href="#home">Tienda Los Panas</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Principal</Nav.Link>
-            <Nav.Link href="#features">Articulos</Nav.Link>
-            <Nav.Link href="#pricing">Carrito de compras</Nav.Link>
+            <Nav.Link href="#Articles">Articulos</Nav.Link>
+            <Nav.Link href="#ShoppingCar">Carrito de compras</Nav.Link>
           </Nav>
         </Container>
       </Navbar>      
