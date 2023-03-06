@@ -2,19 +2,19 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
-
+import CartWidget from '../shared/WigetCart';
 
 function HeadeR() {
   return (
     <div>
             <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Tienda Los Panas</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Principal</Nav.Link>
-            <Nav.Link href="#Articles">Articulos</Nav.Link>
-            <Nav.Link href="#ShoppingCar">Carrito de compras</Nav.Link>
+          <Navbar.Brand href="Home">Tienda Los Panas</Navbar.Brand>
+          <Nav className="NaviBar">
+            <Nav.Link to="/">Principal</Nav.Link>
+            <Nav.Link to="pages/ArticlesMain">Articulos</Nav.Link>
+            <Nav.Link to="pages/about">Sobre nosotros</Nav.Link>
+            <CartWidget />
           </Nav>
         </Container>
       </Navbar>      

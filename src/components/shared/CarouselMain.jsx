@@ -1,15 +1,16 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-
+import './styles/CarouselStyle.css';
 
 
 function CarouselMain() {
   return (
     <div>
+    <div>
     <Carousel>
       <Carousel.Item>
         <img
-          className="ArticleMain1"
+          class="ArticleMain1"
           src="../src/assets/img/DulceKitKatJapones.jpg"
           alt="First slide"
         />
@@ -20,7 +21,7 @@ function CarouselMain() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="ArticleMain2"
+          class="ArticleMain2"
           src="../src/assets/img/JuicyDropAmerica.jpg"
           alt="Second slide"
         />
@@ -32,7 +33,7 @@ function CarouselMain() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="ArticleMain3"
+          class="ArticleMain3"
           src="../src/assets/img/PaletasDulceslargasAmerica.jpg"
           alt="Third slide"
         />
@@ -45,6 +46,7 @@ function CarouselMain() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
     </div>
   );
 }
