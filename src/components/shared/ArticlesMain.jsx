@@ -1,25 +1,28 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-
+import data from './data';
 
 function ArticlesMain(){
 
-return(
 
-<div>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="/img/" />
+
+const listItems = data.map(productS =>
+  
+    <Card style={{ width: '18rem' }} key={data.id}>
+      <Card.Img variant="top" src={data.IMG} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title >{data.ProductName}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {data.stockPrice} <br/> {data.timeElapsed}
         </Card.Text>        
       </Card.Body>
     </Card>
-</div>
+
+
 
 );
+
+return(<div>{listItems} </div>);
 
 }
 

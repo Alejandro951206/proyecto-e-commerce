@@ -8,7 +8,7 @@ const ArticlesPages = () => {
       <div class="ArticlesPage">
 
       <HeadeR />      
-        <h2>hola 2</h2>
+        
       <ArticlesMain />
 
       </div>

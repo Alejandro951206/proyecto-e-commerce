@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div class="AboutUspage">
 
       <HeadeR />      
-         <h1>Hola 1</h1>
+         <h1>Hola AboutUs</h1>
       
       </div>
     );
