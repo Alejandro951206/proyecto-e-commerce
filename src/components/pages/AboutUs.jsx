@@ -1,13 +1,13 @@
 import React from 'react'
 import HeadeR from '../shared/NavBar';
 
-const AboutUsPage = () => {
+const AboutUs = () => {
     return (
   
       <div class="AboutUspage">
 
       <HeadeR />      
-         
+         <h1>Hola 1</h1>
       
       </div>
     );
@@ -18,5 +18,5 @@ const AboutUsPage = () => {
   
   
   
-  export default AboutUsPage;  
+  export default AboutUs;  
   

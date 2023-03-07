@@ -2,19 +2,27 @@
     position: relative;
     cursor: pointer;
     text-align: center;
+    z-index: initial;
   }
   
   .qty-display {
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-color: rgb(121, 0, 115);
+    color: black;    
     border-radius: 50%;
-    font-size: 12px;
-    position: absolute;
+    font-size: 12px;    
     text-align: center;
     line-height: 17px;
-    margin-left: 65rem;
-    margin-top: 0.5rem;
+    margin-right: 50%;
+    
   }
   
+  .cartStyle {
+
+    font-size: 25px;
+    color: white;
+    display: flex;
+    z-index: inherit;
+    
+  }

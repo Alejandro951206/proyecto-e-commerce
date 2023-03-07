@@ -4,25 +4,21 @@ import {BrowserRouter as Router,
   Routes,
   Route  
 } from "react-router-dom";
-import Landing from '../src/components/pages/Landing';
-import ArticlesMain from "../src/components/pages/ArticlesPage";
-import AboutUs from '../src/components/pages/AboutUs';
+import Landing from './components/pages/Landing';
+import ArticlesPages from "./components/pages/ArticlesPages";
+import AboutUs from './components/pages/AboutUs';
 
 
 
 
 function App() {
   return (
-    <Router>
-       
-       <div className="App">
+    <Router>        
        <Routes>
-          <Route exact path='/' component={Landing} />
-          <Route exact path='/pages/ArticlesMain' component={ArticlesMain} /> 
-          <Route exact path='/pages/about' component={AboutUs} />           
-      </Routes>
-      </div>
-      
+          <Route path='/' element={<Landing />}/>
+          <Route path='/pages/ArticlesPages' element={<ArticlesPages />}/> 
+          <Route path='/pages/AboutUs' element={<AboutUs />}/>           
+      </Routes>     
     </Router>
   );
 }

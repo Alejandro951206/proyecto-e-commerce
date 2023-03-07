@@ -1,47 +1,27 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 
 
-const product1 = [
+function ArticlesMain(){
 
-    'IMG',
-    'Kit Kat barra de chocolate',
-    '3 USD per unit',
-    'Candy',
-    'ID 1'
-    
-  ];
+return(
 
-const product2 = [
+<div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="/img/" />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>        
+      </Card.Body>
+    </Card>
+</div>
 
-    'IMG',
-    'Juicy Drop',
-    '2 USD per unit',
-    'Candy',
-    'ID 2'
-   
+);
 
-]
+}
 
-const product3 = [
-
-    'IMG',
-    'Snack picante',
-    '4 USD per unit',
-    'Snacks',
-    'ID 3'
-    
-
-]
-  
-  export default function List() {
-   const listproduct1 = product1.map(products1 =>
-      <div>{products1}</div>);
-
-    const listproduct2 = product2.map (products2=>
-        <div>{products2}</div>);
-
-    const listproduct3 = product3.map (products3=>
-            <div>{products3}</div>);
-
-    return <ul>{listproduct1} {listproduct2} {listproduct3}</ul>;
-  }
+ 
+export default ArticlesMain;

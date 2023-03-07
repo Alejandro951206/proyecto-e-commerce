@@ -6,14 +6,14 @@ import CartWidget from '../shared/WigetCart';
 
 function HeadeR() {
   return (
-    <div>
+    <div class="NaviBar">
             <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="Home">Tienda Los Panas</Navbar.Brand>
+          <Navbar.Brand href='/'>Tienda Los Panas</Navbar.Brand>
           <Nav className="NaviBar">
-            <Nav.Link to="/">Principal</Nav.Link>
-            <Nav.Link to="pages/ArticlesMain">Articulos</Nav.Link>
-            <Nav.Link to="pages/about">Sobre nosotros</Nav.Link>
+            <Nav.Link href='/'>Principal</Nav.Link>
+            <Nav.Link href='/pages/ArticlesPages'>Articulos</Nav.Link>
+            <Nav.Link href='/pages/AboutUs'>Sobre nosotros</Nav.Link>
             <CartWidget />
           </Nav>
         </Container>
