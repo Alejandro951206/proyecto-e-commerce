@@ -3,14 +3,14 @@ const data = [
   {
     id: 0,
     ProductName: "KitKat Japanese candy varios sabores",
-    IMG: "../../../assets/img/DulceKitKatJapones.jpg",
+    IMG: "../../../../src/assets/img/DulceKitKatJapones.jpg",
     stockPrice: "4.99 USD",
     timeElapsed: "5 sec ago",
   },  
   {
     id: 2,
     ProductName: "Pocky Japanese candy varios sabores",
-    IMG: "../../../assets/img/DulcePockyJapones.jpg",
+    IMG: "../../../src/assets/img/DulcePockyJapones.jpg",
     stockPrice: "3.99 USD",
     timeElapsed: "10 sec ago",
   },

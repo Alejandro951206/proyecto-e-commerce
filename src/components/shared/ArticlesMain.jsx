@@ -1,19 +1,19 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import data from './data';
+import data from './data.js';
 
 function ArticlesMain(){
 
 
-
+//ItemlistContainer
 const listItems = data.map(productS =>
   
-    <Card style={{ width: '18rem' }} key={data.id}>
-      <Card.Img variant="top" src={data.IMG} />
-      <Card.Body>
-        <Card.Title >{data.ProductName}</Card.Title>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={productS.IMG} />
+      <Card.Body key={productS.id}>
+        <Card.Title >{productS.ProductName}</Card.Title>
         <Card.Text>
-          {data.stockPrice} <br/> {data.timeElapsed}
+          {productS.stockPrice} <br/> {productS.timeElapsed}
         </Card.Text>        
       </Card.Body>
     </Card>
@@ -22,7 +22,7 @@ const listItems = data.map(productS =>
 
 );
 
-return(<div>{listItems} </div>);
+return(<div>{listItems}</div>);
 
 }
 
