@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './styles/CarouselStyle.css';
 
-
 function CarouselMain() {
   return (
     <div>
@@ -25,7 +24,6 @@ function CarouselMain() {
           src="../../../src/assets/img/JuicyDropAmerica.jpg"
           alt="Second slide"
         />
-
         <Carousel.Caption>
           <h3>Juicy Drop America</h3>
           <p>Unidad o paquete con diferentes sabores a elección.</p>
@@ -37,7 +35,6 @@ function CarouselMain() {
           src="../../../src/assets/img/PaletasDulceslargasAmerica.jpg"
           alt="Third slide"
         />
-
         <Carousel.Caption>
           <h3>Paletas Dulces largas America</h3>
           <p>

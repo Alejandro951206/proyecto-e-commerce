@@ -17,9 +17,8 @@ function HeadeR() {
             <CartWidget />
           </Nav>
         </Container>
-      </Navbar>      
-       
-      </div>
+      </Navbar>        
+    </div>
     
   );
 }

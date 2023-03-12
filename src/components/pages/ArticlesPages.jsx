@@ -3,22 +3,13 @@ import HeadeR from '../shared/NavBar';
 import ItemlistContainer from "../shared/ItemlistContainer";
 
 const ArticlesPages = () => {
-    return (
-  
+    return (  
       <div className="ArticlesPage">
-
       <HeadeR />      
-        
-      <ItemlistContainer />
-
+        <ItemlistContainer />
       </div>
-    );
-  
-    
+    );    
   }
-  
-  
-  
-  
+    
   export default ArticlesPages;  
   

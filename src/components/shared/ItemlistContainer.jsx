@@ -4,8 +4,6 @@ import data from './data.js';
 
 function ItemlistContainer(){
 
-
-
 const listItems = data.map(productS =>
   
     <Card style={{ width: '18rem' }}>
@@ -17,14 +15,8 @@ const listItems = data.map(productS =>
         </Card.Text>        
       </Card.Body>
     </Card>
-
-
-
 );
-
 return(<div>{listItems}</div>);
-
 }
 
- 
 export default ItemlistContainer;
