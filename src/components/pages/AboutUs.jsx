@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import HeadeR from '../shared/NavBar';
 
 const AboutUs = () => {
