@@ -2,10 +2,10 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import data from './data.js';
 
-function ArticlesMain(){
+function ItemlistContainer(){
 
 
-//ItemlistContainer
+
 const listItems = data.map(productS =>
   
     <Card style={{ width: '18rem' }}>
@@ -27,4 +27,4 @@ return(<div>{listItems}</div>);
 }
 
  
-export default ArticlesMain;
+export default ItemlistContainer;

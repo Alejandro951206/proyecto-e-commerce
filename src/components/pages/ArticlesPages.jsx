@@ -1,6 +1,6 @@
 import React from 'react'
 import HeadeR from '../shared/NavBar';
-import ArticlesMain from "../shared/ArticlesMain";
+import ItemlistContainer from "../shared/ItemlistContainer";
 
 const ArticlesPages = () => {
     return (
@@ -9,7 +9,7 @@ const ArticlesPages = () => {
 
       <HeadeR />      
         
-      <ArticlesMain />
+      <ItemlistContainer />
 
       </div>
     );
