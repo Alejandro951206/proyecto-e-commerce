@@ -5,7 +5,7 @@ import ItemlistContainer from "../shared/ItemlistContainer";
 const ArticlesPages = () => {
     return (
   
-      <div class="ArticlesPage">
+      <div className="ArticlesPage">
 
       <HeadeR />      
         

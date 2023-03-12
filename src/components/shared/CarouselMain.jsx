@@ -10,7 +10,7 @@ function CarouselMain() {
     <Carousel>
       <Carousel.Item>
         <img
-          class="ArticleMain1"
+          className="ArticleMain1"
           src="../../../src/assets/img/DulceKitKatJapones.jpg"
           alt="First slide"
         />
@@ -21,7 +21,7 @@ function CarouselMain() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          class="ArticleMain2"
+          className="ArticleMain2"
           src="../../../src/assets/img/JuicyDropAmerica.jpg"
           alt="Second slide"
         />
@@ -33,7 +33,7 @@ function CarouselMain() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          class="ArticleMain3"
+          className="ArticleMain3"
           src="../../../src/assets/img/PaletasDulceslargasAmerica.jpg"
           alt="Third slide"
         />

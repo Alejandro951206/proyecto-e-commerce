@@ -4,7 +4,7 @@ import HeadeR from '../shared/NavBar';
 const AboutUs = () => {
     return (
   
-      <div class="AboutUspage">
+      <div className="AboutUspage">
 
       <HeadeR />      
          <h1>Hola AboutUs</h1>

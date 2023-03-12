@@ -8,7 +8,7 @@ import CarouselMain from '../shared/CarouselMain';
 const Landing = () => {
   return (
 
-    <div class="MainPage">
+    <div className="MainPage">
       
     <HeadeR />
     

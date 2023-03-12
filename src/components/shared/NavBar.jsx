@@ -6,7 +6,7 @@ import CartWidget from '../shared/CartWidget';
 
 function HeadeR() {
   return (
-    <div class="NaviBar">
+    <div className="NaviBar">
             <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href='/'>Tienda Los Panas</Navbar.Brand>
